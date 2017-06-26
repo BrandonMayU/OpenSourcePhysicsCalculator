@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D609B81D1EFF5C7000054FB7 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D609B81C1EFF5C7000054FB7 /* homeViewController.swift */; };
+		D609B81F1F00DFE800054FB7 /* maximumHeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D609B81E1F00DFE800054FB7 /* maximumHeightViewController.swift */; };
+		D609B8211F01741D00054FB7 /* rangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D609B8201F01741D00054FB7 /* rangeViewController.swift */; };
 		D6A3BF6C1EB7BE7B00F00B48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A3BF6B1EB7BE7B00F00B48 /* AppDelegate.swift */; };
-		D6A3BF6E1EB7BE7B00F00B48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A3BF6D1EB7BE7B00F00B48 /* ViewController.swift */; };
+		D6A3BF6E1EB7BE7B00F00B48 /* TimeOfFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A3BF6D1EB7BE7B00F00B48 /* TimeOfFlightViewController.swift */; };
 		D6A3BF711EB7BE7B00F00B48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A3BF6F1EB7BE7B00F00B48 /* Main.storyboard */; };
 		D6A3BF731EB7BE7B00F00B48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A3BF721EB7BE7B00F00B48 /* Assets.xcassets */; };
 		D6A3BF761EB7BE7B00F00B48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A3BF741EB7BE7B00F00B48 /* LaunchScreen.storyboard */; };
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D609B81C1EFF5C7000054FB7 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		D609B81E1F00DFE800054FB7 /* maximumHeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = maximumHeightViewController.swift; sourceTree = "<group>"; };
+		D609B8201F01741D00054FB7 /* rangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rangeViewController.swift; sourceTree = "<group>"; };
 		D6A3BF681EB7BE7B00F00B48 /* Physics Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Physics Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A3BF6B1EB7BE7B00F00B48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6A3BF6D1EB7BE7B00F00B48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6A3BF6D1EB7BE7B00F00B48 /* TimeOfFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfFlightViewController.swift; sourceTree = "<group>"; };
 		D6A3BF701EB7BE7B00F00B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6A3BF721EB7BE7B00F00B48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6A3BF751EB7BE7B00F00B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				D6A3BF6B1EB7BE7B00F00B48 /* AppDelegate.swift */,
-				D6A3BF6D1EB7BE7B00F00B48 /* ViewController.swift */,
+				D609B81C1EFF5C7000054FB7 /* homeViewController.swift */,
 				D6A3BF6F1EB7BE7B00F00B48 /* Main.storyboard */,
 				D6A3BF721EB7BE7B00F00B48 /* Assets.xcassets */,
 				D6A3BF741EB7BE7B00F00B48 /* LaunchScreen.storyboard */,
 				D6A3BF771EB7BE7B00F00B48 /* Info.plist */,
+				D6A3BF6D1EB7BE7B00F00B48 /* TimeOfFlightViewController.swift */,
+				D609B81E1F00DFE800054FB7 /* maximumHeightViewController.swift */,
+				D609B8201F01741D00054FB7 /* rangeViewController.swift */,
 			);
 			path = "Physics Calculator";
 			sourceTree = "<group>";
@@ -262,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6A3BF6E1EB7BE7B00F00B48 /* ViewController.swift in Sources */,
+				D6A3BF6E1EB7BE7B00F00B48 /* TimeOfFlightViewController.swift in Sources */,
+				D609B8211F01741D00054FB7 /* rangeViewController.swift in Sources */,
+				D609B81D1EFF5C7000054FB7 /* homeViewController.swift in Sources */,
+				D609B81F1F00DFE800054FB7 /* maximumHeightViewController.swift in Sources */,
 				D6A3BF6C1EB7BE7B00F00B48 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +526,7 @@
 				D6A3BF921EB7BE7B00F00B48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6A3BF931EB7BE7B00F00B48 /* Build configuration list for PBXNativeTarget "Physics CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +535,7 @@
 				D6A3BF951EB7BE7B00F00B48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6A3BF961EB7BE7B00F00B48 /* Build configuration list for PBXNativeTarget "Physics CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +544,7 @@
 				D6A3BF981EB7BE7B00F00B48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
