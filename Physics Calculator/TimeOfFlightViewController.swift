@@ -26,7 +26,7 @@ class TimeOfFlightViewController: UIViewController {
     @IBOutlet weak var secondDisclaimerLabel: UILabel!
     
     
-    //Buttons
+    ///Buttons
     @IBAction func calculateButton(_ sender: Any) {
 
         if(velocityTF.text == "" || degreesTF.text == ""){
